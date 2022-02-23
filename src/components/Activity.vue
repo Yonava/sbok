@@ -74,7 +74,7 @@ export default {
         this.numbers = '0' + this.numbers;
       }
       this.display = this.numbers;
-      setTimeout(() => this.display = 'XXXXXX', 550);
+      setTimeout(() => this.display = 'XXXXXX', 650);
     },
     validate() {
         if (this.input == this.numbers) {
