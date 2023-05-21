@@ -4,7 +4,7 @@
 
     <button class="activate" v-if="!started && (!displayFirst && !displaySecond)" v-on:click="startRoutine()">Start Activity</button>
 
-    <img v-if="displayFirst" src="./assets/HackOne.gif" alt="keycard loading">
+    <img v-if="displayFirst" src="./assets/Troll.png" alt="keycard loading">
     <img v-else-if="displaySecond" src="./assets/HackSecond.png" alt="stolen keycard">
 
     <button class="return" v-if="started" v-on:click="started = !started">Return</button>
